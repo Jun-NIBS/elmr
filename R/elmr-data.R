@@ -172,7 +172,7 @@ NULL
 #'   FAFB assembly (currently FAFB14).
 #' @docType data
 #' @name FAFB.surf
-NULL
+delayedAssign("FAFB.surf", FAFB14.surf)
 
 #' @description \code{FAFB14NP.surf} is a surface object for the Ito et al
 #'   (2014) neuropil regions in \code{\link{FAFB14}} space
@@ -186,4 +186,4 @@ NULL
 #' @docType data
 #' @name FAFBNP.surf
 #' @rdname FAFB.surf
-NULL
+delayedAssign("FAFBNP.surf", FAFB14NP.surf)
